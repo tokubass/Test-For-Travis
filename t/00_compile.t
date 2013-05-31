@@ -1,7 +1,8 @@
+use strict;
 use Test::More;
 
 use_ok $_ for qw(
-    strict
+    Test::For::Travis
 );
 
 done_testing;
