@@ -1,4 +1,4 @@
-# NAME
+# NAME [![Build Status](https://travis-ci.org/tokubass/Test-For-Travis.png)](https://travis-ci.org/tokubass/Test-For-Travis)
 
 Test::For::Travis - It's new $module
 
