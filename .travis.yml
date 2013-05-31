@@ -2,7 +2,12 @@ language: perl
 
 before_install:
     - "perlbrew -f install-cpanm"
+    - "cpanm --intalldeps Alien::Tidyp -n ."
     - "cpanm --installdeps --with-recommends -n ."
 
 perl:
   - 5.10
+  - 5.12
+  - 5.14
+  - 5.16
+
